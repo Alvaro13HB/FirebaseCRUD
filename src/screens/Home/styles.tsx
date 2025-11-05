@@ -1,0 +1,148 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+    },
+    title: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        paddingTop: 45,
+        margin: 5,
+    },
+    contactItem: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingHorizontal: 16,
+        paddingVertical: 12,
+    },
+    avatarContainer: {
+        width: 48,
+        height: 48,
+        borderRadius: 24,
+        backgroundColor: '#e0e0e0',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginRight: 16,
+    },
+    avatarText: {
+        fontSize: 20,
+        color: '#555',
+        fontWeight: 'bold',
+    },
+    contactInfo: {
+        flex: 1,
+    },
+    contactName: {
+        fontSize: 18,
+        fontWeight: '600',
+        color: '#000',
+    },
+    contactDetail: {
+        fontSize: 14,
+        color: '#666',
+        marginTop: 2,
+    },
+    actionIcons: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    iconButton: {
+        marginLeft: 16,
+    },
+    separator: {
+        height: 1,
+        backgroundColor: '#f0f0f0',
+        marginLeft: 80,
+    },
+    floatingButton: {
+        position: 'absolute',
+        bottom: 30,
+        right: 30,
+        width: 60,
+        height: 60,
+        borderRadius: 30,
+        backgroundColor: '#007aff',
+        justifyContent: 'center',
+        alignItems: 'center',
+        elevation: 8,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+    },
+    modalOverlay: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    },
+    modalView: {
+        width: '90%',
+        backgroundColor: 'white',
+        borderRadius: 20,
+        padding: 25,
+        alignItems: 'stretch',
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5,
+    },
+    modalHeader: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginBottom: 20,
+    },
+    modalTitle: {
+        fontSize: 22,
+        fontWeight: 'bold',
+        color: '#333',
+    },
+    input: {
+        height: 50,
+        backgroundColor: '#f7f7f7',
+        borderColor: '#e0e0e0',
+        borderWidth: 1,
+        borderRadius: 10,
+        paddingHorizontal: 15,
+        marginBottom: 15,
+        fontSize: 16,
+    },
+    saveButton: {
+        backgroundColor: '#007aff',
+        borderRadius: 10,
+        paddingVertical: 15,
+        alignItems: 'center',
+        marginTop: 10,
+    },
+    saveButtonText: {
+        color: 'white',
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+    exitContainer: {
+        position: 'absolute',
+        bottom: 30,
+        right: 320,
+        width: 60,
+        height: 60,
+        borderRadius: 30,
+        backgroundColor: '#ff3b30',
+        justifyContent: 'center',
+        alignItems: 'center',
+        elevation: 8,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+    }
+});
+
+export default styles;
